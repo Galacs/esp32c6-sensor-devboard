@@ -229,7 +229,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -278,7 +278,29 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "Net-(U1-VDD_SPI{slash}GPIO27)": [
+        "SPI_FLASH"
+      ],
+      "Net-(U2-CLK)": [
+        "SPI_FLASH"
+      ],
+      "Net-(U2-DI{slash}IO_{0})": [
+        "SPI_FLASH"
+      ],
+      "Net-(U2-DO{slash}IO_{1})": [
+        "SPI_FLASH"
+      ],
+      "Net-(U2-~{CS})": [
+        "SPI_FLASH"
+      ],
+      "Net-(U2-~{HOLD}{slash}~{RESET}{slash}IO_{3})": [
+        "SPI_FLASH"
+      ],
+      "Net-(U2-~{WP}{slash}IO_{2})": [
+        "SPI_FLASH"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
