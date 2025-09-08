@@ -5290,6 +5290,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 52.07) (xy 262.89 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30fdf280-e84e-4125-9489-1ee34cd978af")
+	)
+	(wire
+		(pts
 			(xy 200.66 36.83) (xy 190.5 36.83)
 		)
 		(stroke
@@ -5420,7 +5430,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 60.96) (xy 270.51 57.15)
+			(xy 270.51 60.96) (xy 270.51 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6220,7 +6230,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 64.77) (xy 267.97 57.15)
+			(xy 267.97 64.77) (xy 267.97 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6660,7 +6670,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 62.23) (xy 262.89 57.15)
+			(xy 262.89 62.23) (xy 262.89 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6710,7 +6720,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 57.15) (xy 265.43 58.42)
+			(xy 265.43 50.8) (xy 265.43 58.42)
 		)
 		(stroke
 			(width 0)
@@ -12829,7 +12839,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 267.97 52.07 270)
+		(at 267.97 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12838,7 +12848,7 @@
 		(fields_autoplaced yes)
 		(uuid "bcc87a85-f250-4b05-897e-48d13d06ac7b")
 		(property "Reference" "J1"
-			(at 266.7 49.53 90)
+			(at 266.7 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12846,7 +12856,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 266.7 49.53 90)
+			(at 266.7 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12855,7 +12865,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 52.07 0)
+			(at 267.97 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12864,7 +12874,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 267.97 52.07 0)
+			(at 267.97 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12873,7 +12883,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 267.97 52.07 0)
+			(at 267.97 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13083,6 +13093,75 @@
 			(project "esp32c6-sensor-devboard"
 				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 262.89 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdd11990-5331-47eb-bfc7-1b0d4c28aa5e")
+		(property "Reference" "R16"
+			(at 261.112 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "470"
+			(at 261.112 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.112 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 262.89 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "65797228-700d-4e85-975d-079e0cbd578d")
+		)
+		(pin "1"
+			(uuid "eac2730d-696c-41dd-9657-dcfb8eaa4d4c")
+		)
+		(instances
+			(project ""
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e"
+					(reference "R16")
 					(unit 1)
 				)
 			)
