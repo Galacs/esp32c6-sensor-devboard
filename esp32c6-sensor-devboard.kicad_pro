@@ -279,6 +279,27 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "Net-(J2-DET)": [
+        "SDIO"
+      ],
+      "Net-(U1-GPIO18{slash}SDIO_CMD{slash}FSPICS2)": [
+        "SDIO"
+      ],
+      "Net-(U1-GPIO19{slash}SDIO_CLK{slash}FSPICS3)": [
+        "SDIO"
+      ],
+      "Net-(U1-GPIO20{slash}SDIO_DATA0{slash}FSPICS4)": [
+        "SDIO"
+      ],
+      "Net-(U1-GPIO21{slash}SDIO_DATA1{slash}FSPICS5)": [
+        "SDIO"
+      ],
+      "Net-(U1-GPIO22{slash}SDIO_DATA2)": [
+        "SDIO"
+      ],
+      "Net-(U1-GPIO23{slash}SDIO_DATA3)": [
+        "SDIO"
+      ],
       "Net-(U1-VDD_SPI{slash}GPIO27)": [
         "SPI_FLASH"
       ],
