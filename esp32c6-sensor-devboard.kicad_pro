@@ -660,6 +660,10 @@
     [
       "4befa429-10a8-402a-b91d-1560a39651d5",
       "Power"
+    ],
+    [
+      "b7a168fa-ef36-46f7-85e2-013385835bc1",
+      "AC Level Shifter"
     ]
   ],
   "text_variables": {}
