@@ -16139,6 +16139,16 @@
 				(justify left)
 			)
 		)
+		(pin "Vlogic" output
+			(at 180.34 33.02 0)
+			(uuid "8c845003-f29d-4573-a601-1db2d8f1d450")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "esp32c6-sensor-devboard"
 				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e"
