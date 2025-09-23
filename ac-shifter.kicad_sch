@@ -1974,7 +1974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c932ff7-12ba-4f55-97c9-712bb20b9a00")
-		(property "Reference" "R?"
+		(property "Reference" "R48"
 			(at 184.15 105.4099 0)
 			(effects
 				(font
@@ -2028,7 +2028,7 @@
 		(instances
 			(project "esp32c6-sensor-devboard"
 				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/b7a168fa-ef36-46f7-85e2-013385835bc1"
-					(reference "R?")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -2369,14 +2369,14 @@
 	(symbol
 		(lib_id "Comparator:LM393")
 		(at 128.27 60.96 0)
-		(unit 1)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60b38f39-650f-44c6-9f15-b68bc7b71a8a")
-		(property "Reference" "U?"
+		(property "Reference" "U10"
 			(at 127 59.6899 0)
 			(effects
 				(font
@@ -2448,8 +2448,8 @@
 		(instances
 			(project "esp32c6-sensor-devboard"
 				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/b7a168fa-ef36-46f7-85e2-013385835bc1"
-					(reference "U?")
-					(unit 1)
+					(reference "U10")
+					(unit 3)
 				)
 			)
 		)
@@ -2463,7 +2463,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70868c0b-963f-4f9d-8bad-9b458a0884f6")
-		(property "Reference" "C?"
+		(property "Reference" "C40"
 			(at 111.76 55.8799 0)
 			(effects
 				(font
@@ -2517,7 +2517,7 @@
 		(instances
 			(project "esp32c6-sensor-devboard"
 				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/b7a168fa-ef36-46f7-85e2-013385835bc1"
-					(reference "C?")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -2532,7 +2532,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "732d59fe-a540-46a6-b1d0-61225e523a85")
-		(property "Reference" "D?"
+		(property "Reference" "D5"
 			(at 99.568 90.424 0)
 			(effects
 				(font
@@ -2621,7 +2621,7 @@
 		(instances
 			(project "esp32c6-sensor-devboard"
 				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/b7a168fa-ef36-46f7-85e2-013385835bc1"
-					(reference "D?")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -2773,7 +2773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6a92396-64ca-40ac-be84-0dc1e9168f5e")
-		(property "Reference" "C?"
+		(property "Reference" "C39"
 			(at 113.03 99.0599 0)
 			(effects
 				(font
@@ -2827,7 +2827,7 @@
 		(instances
 			(project "esp32c6-sensor-devboard"
 				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/b7a168fa-ef36-46f7-85e2-013385835bc1"
-					(reference "C?")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -2908,7 +2908,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd69f3ec-59c0-4dd4-b658-3acb05110838")
-		(property "Reference" "U?"
+		(property "Reference" "U10"
 			(at 170.18 68.58 0)
 			(effects
 				(font
@@ -2978,7 +2978,7 @@
 		(instances
 			(project "esp32c6-sensor-devboard"
 				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/b7a168fa-ef36-46f7-85e2-013385835bc1"
-					(reference "U?")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -3060,7 +3060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb416e3a-e401-44fb-a24f-e58c77a8a2ce")
-		(property "Reference" "R?"
+		(property "Reference" "R47"
 			(at 142.24 99.0599 0)
 			(effects
 				(font
@@ -3114,7 +3114,7 @@
 		(instances
 			(project "esp32c6-sensor-devboard"
 				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/b7a168fa-ef36-46f7-85e2-013385835bc1"
-					(reference "R?")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -3193,14 +3193,14 @@
 	(symbol
 		(lib_id "Comparator:LM393")
 		(at 170.18 114.3 0)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f90c46bd-6543-4f6d-9903-e03e575022ab")
-		(property "Reference" "U?"
+		(property "Reference" "U10"
 			(at 170.18 104.14 0)
 			(effects
 				(font
@@ -3270,8 +3270,8 @@
 		(instances
 			(project "esp32c6-sensor-devboard"
 				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/b7a168fa-ef36-46f7-85e2-013385835bc1"
-					(reference "U?")
-					(unit 1)
+					(reference "U10")
+					(unit 2)
 				)
 			)
 		)
