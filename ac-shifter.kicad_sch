@@ -2830,10 +2830,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "87f76a41-5262-45bf-bae3-5b9d2dcaa5c7")
 		(property "Reference" "TP4"
-			(at 132.08 89.4079 0)
+			(at 128.27 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2848,6 +2847,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -3454,10 +3454,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "edc1eccc-4f66-43aa-97df-2347a2b72005")
 		(property "Reference" "TP1"
-			(at 111.76 89.4079 0)
+			(at 108.204 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3702,10 +3701,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fe5553e0-da00-4641-ad12-fec48723a402")
 		(property "Reference" "TP7"
-			(at 186.69 117.6019 0)
+			(at 183.134 120.396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
