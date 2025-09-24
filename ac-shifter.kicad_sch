@@ -1974,7 +1974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c932ff7-12ba-4f55-97c9-712bb20b9a00")
-		(property "Reference" "R48"
+		(property "Reference" "R56"
 			(at 184.15 105.4099 0)
 			(effects
 				(font
@@ -2020,14 +2020,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "234ea4a7-2d7a-4664-9b79-1c2052188920")
+			(uuid "a00e82e3-6ff7-4484-aaa4-1131fec777bc")
 		)
 		(pin "1"
-			(uuid "66521310-e3de-4470-b261-4152b71b42e0")
+			(uuid "21936d26-c61c-4d01-859a-6e24b72fcc89")
 		)
 		(instances
 			(project "esp32c6-sensor-devboard"
-				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/b7a168fa-ef36-46f7-85e2-013385835bc1"
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/30405a70-5ee8-4fa0-855b-2b8bdab4954c"
+					(reference "R52")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/5f6c93b9-e933-4ea9-a357-6909cb7c1eb6"
+					(reference "R56")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/a6afd72b-5a4f-47cb-8cd9-76696d192618"
 					(reference "R48")
 					(unit 1)
 				)
@@ -2044,7 +2052,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f891f40-ecca-4b0e-a331-4e354fb79624")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR088"
 			(at 125.73 77.47 0)
 			(effects
 				(font
@@ -2089,12 +2097,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa8a254b-d1ed-4162-8086-cfc29e85e42a")
+			(uuid "b20d759e-250a-4355-ab3f-4dbdb2ef397f")
 		)
 		(instances
 			(project "esp32c6-sensor-devboard"
-				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/b7a168fa-ef36-46f7-85e2-013385835bc1"
-					(reference "#PWR059")
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/30405a70-5ee8-4fa0-855b-2b8bdab4954c"
+					(reference "#PWR081")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/5f6c93b9-e933-4ea9-a357-6909cb7c1eb6"
+					(reference "#PWR088")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/a6afd72b-5a4f-47cb-8cd9-76696d192618"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -2110,7 +2126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4198865b-ef5e-42f6-a7ff-c99b282f2a03")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR087"
 			(at 125.73 54.61 0)
 			(effects
 				(font
@@ -2155,11 +2171,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "1cfc988e-e843-4bcd-9c8d-c11be7e8763e")
+			(uuid "1f6cf855-d879-4cf6-9fb0-8ba28d0b9119")
 		)
 		(instances
 			(project "esp32c6-sensor-devboard"
-				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/b7a168fa-ef36-46f7-85e2-013385835bc1"
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/30405a70-5ee8-4fa0-855b-2b8bdab4954c"
+					(reference "#PWR080")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/5f6c93b9-e933-4ea9-a357-6909cb7c1eb6"
+					(reference "#PWR087")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/a6afd72b-5a4f-47cb-8cd9-76696d192618"
 					(reference "#PWR060")
 					(unit 1)
 				)
@@ -2176,7 +2200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52dc7627-c6bc-4091-b477-496ca81a3cdd")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR086"
 			(at 115.57 69.85 0)
 			(effects
 				(font
@@ -2221,12 +2245,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "c6bb99cd-a0c4-4ac4-a237-b78f763fdc9c")
+			(uuid "9b369565-2ba7-4c17-b043-d3607cb89a2e")
 		)
 		(instances
 			(project "esp32c6-sensor-devboard"
-				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/b7a168fa-ef36-46f7-85e2-013385835bc1"
-					(reference "#PWR061")
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/30405a70-5ee8-4fa0-855b-2b8bdab4954c"
+					(reference "#PWR079")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/5f6c93b9-e933-4ea9-a357-6909cb7c1eb6"
+					(reference "#PWR086")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/a6afd72b-5a4f-47cb-8cd9-76696d192618"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -2242,7 +2274,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5839c45c-7fdf-44bb-94ed-7ce3191f779f")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR090"
 			(at 181.61 104.14 0)
 			(effects
 				(font
@@ -2287,12 +2319,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b12c243-9ff6-439f-8c8b-9f9c471b6d7c")
+			(uuid "ee9bc616-f9df-49fe-9f1d-b9615713a448")
 		)
 		(instances
 			(project "esp32c6-sensor-devboard"
-				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/b7a168fa-ef36-46f7-85e2-013385835bc1"
-					(reference "#PWR062")
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/30405a70-5ee8-4fa0-855b-2b8bdab4954c"
+					(reference "#PWR083")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/5f6c93b9-e933-4ea9-a357-6909cb7c1eb6"
+					(reference "#PWR090")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/a6afd72b-5a4f-47cb-8cd9-76696d192618"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -2308,7 +2348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b1c08a2-3d30-4d6e-95a3-939812c10b04")
-		(property "Reference" "R37"
+		(property "Reference" "R53"
 			(at 119.38 87.63 90)
 			(effects
 				(font
@@ -2352,14 +2392,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "405dabc0-3317-4c4f-8268-3e2414c3dc02")
+			(uuid "345775ac-e614-4301-ac53-d4a3ee44717a")
 		)
 		(pin "1"
-			(uuid "0af2141a-294c-4dce-9a00-d4ba081c435a")
+			(uuid "5138a179-6d47-423f-b5e6-5470a72b7d9d")
 		)
 		(instances
 			(project "esp32c6-sensor-devboard"
-				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/b7a168fa-ef36-46f7-85e2-013385835bc1"
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/30405a70-5ee8-4fa0-855b-2b8bdab4954c"
+					(reference "R49")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/5f6c93b9-e933-4ea9-a357-6909cb7c1eb6"
+					(reference "R53")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/a6afd72b-5a4f-47cb-8cd9-76696d192618"
 					(reference "R37")
 					(unit 1)
 				)
@@ -2376,7 +2424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60b38f39-650f-44c6-9f15-b68bc7b71a8a")
-		(property "Reference" "U10"
+		(property "Reference" "U13"
 			(at 127 59.6899 0)
 			(effects
 				(font
@@ -2431,7 +2479,7 @@
 			(uuid "f9caf32d-09bf-4939-b73f-c6def3ab3337")
 		)
 		(pin "8"
-			(uuid "e45b0ea2-e9f7-4c91-9743-703698b3cb80")
+			(uuid "482e5c29-e770-44ba-b854-d5a6f132f0ba")
 		)
 		(pin "7"
 			(uuid "8899f9c2-a231-453c-adb2-d9869893b2aa")
@@ -2443,11 +2491,19 @@
 			(uuid "52d61079-7262-405a-bd68-695b347880cd")
 		)
 		(pin "4"
-			(uuid "d76c68d7-234b-49ca-af52-3edd9196e1b0")
+			(uuid "830c4f26-7756-43fd-a2b7-2bd9196ba31e")
 		)
 		(instances
 			(project "esp32c6-sensor-devboard"
-				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/b7a168fa-ef36-46f7-85e2-013385835bc1"
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/30405a70-5ee8-4fa0-855b-2b8bdab4954c"
+					(reference "U12")
+					(unit 3)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/5f6c93b9-e933-4ea9-a357-6909cb7c1eb6"
+					(reference "U13")
+					(unit 3)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/a6afd72b-5a4f-47cb-8cd9-76696d192618"
 					(reference "U10")
 					(unit 3)
 				)
@@ -2463,7 +2519,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70868c0b-963f-4f9d-8bad-9b458a0884f6")
-		(property "Reference" "C40"
+		(property "Reference" "C46"
 			(at 111.76 55.8799 0)
 			(effects
 				(font
@@ -2509,15 +2565,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "f48e98d9-5fc1-4b0c-bf15-8ebc4f769756")
+			(uuid "c7bed193-6f0c-48bb-a1cf-a8359578e459")
 		)
 		(pin "2"
-			(uuid "6f598099-4fe1-4c2b-8e1d-f23bf4d6d78b")
+			(uuid "544a96ff-17d2-4d31-b2c5-5e1af4ad9396")
 		)
 		(instances
 			(project "esp32c6-sensor-devboard"
-				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/b7a168fa-ef36-46f7-85e2-013385835bc1"
-					(reference "C40")
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/30405a70-5ee8-4fa0-855b-2b8bdab4954c"
+					(reference "C43")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/5f6c93b9-e933-4ea9-a357-6909cb7c1eb6"
+					(reference "C46")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/a6afd72b-5a4f-47cb-8cd9-76696d192618"
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -2532,7 +2596,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "732d59fe-a540-46a6-b1d0-61225e523a85")
-		(property "Reference" "D5"
+		(property "Reference" "D8"
 			(at 99.568 90.424 0)
 			(effects
 				(font
@@ -2607,20 +2671,28 @@
 			)
 		)
 		(pin "3"
-			(uuid "91f16143-6016-421a-bb8f-cb4952c76eeb")
+			(uuid "20bc48bd-e01e-4900-8bf7-0a03a2ec1111")
 		)
 		(pin "2"
-			(uuid "009ddbbf-9255-4293-b7dc-497a59a9cdc8")
+			(uuid "e6363240-c677-4024-b4e9-ac4e70673bf9")
 		)
 		(pin "4"
-			(uuid "1b62b0c6-b926-4616-a6f7-509ac4b8e0e2")
+			(uuid "fd937097-061f-4a9b-a882-aaa97bc6fa5f")
 		)
 		(pin "1"
-			(uuid "15400fb2-35b2-4769-a26b-2287e405253e")
+			(uuid "5db6c25c-ab10-4a97-bed6-88634aff5f65")
 		)
 		(instances
 			(project "esp32c6-sensor-devboard"
-				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/b7a168fa-ef36-46f7-85e2-013385835bc1"
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/30405a70-5ee8-4fa0-855b-2b8bdab4954c"
+					(reference "D6")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/5f6c93b9-e933-4ea9-a357-6909cb7c1eb6"
+					(reference "D8")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/a6afd72b-5a4f-47cb-8cd9-76696d192618"
 					(reference "D5")
 					(unit 1)
 				)
@@ -2637,7 +2709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ca836af-753e-4fb0-8edd-a500946cb403")
-		(property "Reference" "C32"
+		(property "Reference" "C47"
 			(at 133.35 99.0599 0)
 			(effects
 				(font
@@ -2683,15 +2755,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "b9938352-07a8-461e-afee-b0a7ceb00db7")
+			(uuid "93e55ed6-c52e-4f5c-b83c-3c738d24f877")
 		)
 		(pin "2"
-			(uuid "92a085bb-0f00-4f8c-a914-d8537047918b")
+			(uuid "56ae3f2a-d0bb-4605-bed2-2d3c654f953a")
 		)
 		(instances
 			(project "esp32c6-sensor-devboard"
-				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/b7a168fa-ef36-46f7-85e2-013385835bc1"
-					(reference "C32")
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/30405a70-5ee8-4fa0-855b-2b8bdab4954c"
+					(reference "C44")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/5f6c93b9-e933-4ea9-a357-6909cb7c1eb6"
+					(reference "C47")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/a6afd72b-5a4f-47cb-8cd9-76696d192618"
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -2707,7 +2787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1abfefe-59c6-43cf-84e1-911659908acd")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR089"
 			(at 134.62 113.03 0)
 			(effects
 				(font
@@ -2752,12 +2832,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "70f47862-c7de-457a-85ee-4b116c640142")
+			(uuid "98e3cc92-8c0e-40d4-b0dc-d4a8b744eb56")
 		)
 		(instances
 			(project "esp32c6-sensor-devboard"
-				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/b7a168fa-ef36-46f7-85e2-013385835bc1"
-					(reference "#PWR058")
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/30405a70-5ee8-4fa0-855b-2b8bdab4954c"
+					(reference "#PWR082")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/5f6c93b9-e933-4ea9-a357-6909cb7c1eb6"
+					(reference "#PWR089")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/a6afd72b-5a4f-47cb-8cd9-76696d192618"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -2773,7 +2861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6a92396-64ca-40ac-be84-0dc1e9168f5e")
-		(property "Reference" "C39"
+		(property "Reference" "C45"
 			(at 113.03 99.0599 0)
 			(effects
 				(font
@@ -2819,15 +2907,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "d1e3c5d6-6024-46af-aedb-e32bba4e6f1f")
+			(uuid "782d7915-a044-4838-9787-5be94034acb8")
 		)
 		(pin "2"
-			(uuid "3c488c29-26d4-41b2-9ed1-755c9bf13011")
+			(uuid "6b28b1cb-95c8-4741-a543-6d55a8e3465e")
 		)
 		(instances
 			(project "esp32c6-sensor-devboard"
-				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/b7a168fa-ef36-46f7-85e2-013385835bc1"
-					(reference "C39")
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/30405a70-5ee8-4fa0-855b-2b8bdab4954c"
+					(reference "C42")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/5f6c93b9-e933-4ea9-a357-6909cb7c1eb6"
+					(reference "C45")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/a6afd72b-5a4f-47cb-8cd9-76696d192618"
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -2843,7 +2939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6ba62d3-f1cb-4ee9-93cb-b955236a6675")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR084"
 			(at 80.01 113.03 0)
 			(effects
 				(font
@@ -2888,12 +2984,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "5d90c354-8352-433f-9594-e6f93b91fc9a")
+			(uuid "7cf4a122-e520-42a7-a132-5414ffb33013")
 		)
 		(instances
 			(project "esp32c6-sensor-devboard"
-				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/b7a168fa-ef36-46f7-85e2-013385835bc1"
-					(reference "#PWR?")
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/30405a70-5ee8-4fa0-855b-2b8bdab4954c"
+					(reference "#PWR077")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/5f6c93b9-e933-4ea9-a357-6909cb7c1eb6"
+					(reference "#PWR084")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/a6afd72b-5a4f-47cb-8cd9-76696d192618"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -2908,7 +3012,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd69f3ec-59c0-4dd4-b658-3acb05110838")
-		(property "Reference" "U10"
+		(property "Reference" "U13"
 			(at 170.18 68.58 0)
 			(effects
 				(font
@@ -2952,7 +3056,7 @@
 			)
 		)
 		(pin "3"
-			(uuid "33be013c-b8a9-4cc2-b24d-50e21206cfdc")
+			(uuid "d1a2153e-8e0f-4848-8f1a-e30b1bc970da")
 		)
 		(pin "5"
 			(uuid "1a8deb9a-12a0-4071-98cf-6a9dc491506b")
@@ -2967,17 +3071,25 @@
 			(uuid "8899f9c2-a231-453c-adb2-d9869893b2ab")
 		)
 		(pin "1"
-			(uuid "13ff7900-bf31-4374-9543-e630118b80d5")
+			(uuid "3dfc0f2c-3a38-45f5-a209-34000cdb443b")
 		)
 		(pin "2"
-			(uuid "9873dbd3-b4bd-4b93-bb3c-04ec5f31d7fc")
+			(uuid "ef0ff10f-344d-4eb1-baab-450deeb81c8a")
 		)
 		(pin "4"
 			(uuid "8b3f4647-a728-4a47-8456-fb3d92621f54")
 		)
 		(instances
 			(project "esp32c6-sensor-devboard"
-				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/b7a168fa-ef36-46f7-85e2-013385835bc1"
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/30405a70-5ee8-4fa0-855b-2b8bdab4954c"
+					(reference "U12")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/5f6c93b9-e933-4ea9-a357-6909cb7c1eb6"
+					(reference "U13")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/a6afd72b-5a4f-47cb-8cd9-76696d192618"
 					(reference "U10")
 					(unit 1)
 				)
@@ -2994,7 +3106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbf805cf-b6d9-450d-b703-4667088cc083")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR085"
 			(at 109.22 113.03 0)
 			(effects
 				(font
@@ -3039,12 +3151,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "641a913a-75ab-4905-b910-2ad38efae266")
+			(uuid "7e7d8bf5-a7ab-4a12-832f-f3f105b647b2")
 		)
 		(instances
 			(project "esp32c6-sensor-devboard"
-				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/b7a168fa-ef36-46f7-85e2-013385835bc1"
-					(reference "#PWR054")
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/30405a70-5ee8-4fa0-855b-2b8bdab4954c"
+					(reference "#PWR078")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/5f6c93b9-e933-4ea9-a357-6909cb7c1eb6"
+					(reference "#PWR085")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/a6afd72b-5a4f-47cb-8cd9-76696d192618"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -3060,7 +3180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb416e3a-e401-44fb-a24f-e58c77a8a2ce")
-		(property "Reference" "R47"
+		(property "Reference" "R54"
 			(at 142.24 99.0599 0)
 			(effects
 				(font
@@ -3106,15 +3226,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "535dc070-9b25-46ba-9d8a-3f97a53240e9")
+			(uuid "68d63b27-19e4-427b-ad47-ef39a787ec9d")
 		)
 		(pin "1"
-			(uuid "9014cf38-bb5b-4746-9690-77f4a49fe043")
+			(uuid "47c88dd3-14c0-4d8b-8d00-7b0a6d8aca7f")
 		)
 		(instances
 			(project "esp32c6-sensor-devboard"
-				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/b7a168fa-ef36-46f7-85e2-013385835bc1"
-					(reference "R47")
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/30405a70-5ee8-4fa0-855b-2b8bdab4954c"
+					(reference "R50")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/5f6c93b9-e933-4ea9-a357-6909cb7c1eb6"
+					(reference "R54")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/a6afd72b-5a4f-47cb-8cd9-76696d192618"
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -3130,7 +3258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f558d2d3-0764-461a-99d9-3c2a8908b7e3")
-		(property "Reference" "R39"
+		(property "Reference" "R55"
 			(at 184.15 69.8499 0)
 			(effects
 				(font
@@ -3176,15 +3304,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "36b78995-de68-44b5-831d-6a42101863ba")
+			(uuid "67e27c23-c23c-4d9e-99f4-f7cde834b7b3")
 		)
 		(pin "1"
-			(uuid "49d35ada-7324-4ae8-b615-bbb70b8a5b25")
+			(uuid "6f8ef73e-812f-4634-94c4-c57bc17af608")
 		)
 		(instances
 			(project "esp32c6-sensor-devboard"
-				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/b7a168fa-ef36-46f7-85e2-013385835bc1"
-					(reference "R39")
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/30405a70-5ee8-4fa0-855b-2b8bdab4954c"
+					(reference "R51")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/5f6c93b9-e933-4ea9-a357-6909cb7c1eb6"
+					(reference "R55")
+					(unit 1)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/a6afd72b-5a4f-47cb-8cd9-76696d192618"
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -3200,7 +3336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f90c46bd-6543-4f6d-9903-e03e575022ab")
-		(property "Reference" "U10"
+		(property "Reference" "U13"
 			(at 170.18 104.14 0)
 			(effects
 				(font
@@ -3247,16 +3383,16 @@
 			(uuid "db90dd27-79ef-40f5-a0a9-739b34675139")
 		)
 		(pin "5"
-			(uuid "6114b8d6-c7be-413d-af18-ce0d0a7f336c")
+			(uuid "4e6b638d-ceda-4e14-96af-e98f16bcde1b")
 		)
 		(pin "6"
-			(uuid "d9e01418-d048-4055-8741-2fbc4fb72ce5")
+			(uuid "d00ec2ad-ba9f-4286-81fa-033810093aad")
 		)
 		(pin "8"
 			(uuid "8b0a7bae-e6d8-4dcc-b121-d24b32ea1221")
 		)
 		(pin "7"
-			(uuid "41f55429-ca78-4b09-8455-ffac71995671")
+			(uuid "80169903-0e84-47de-9f43-065c56b7dbc9")
 		)
 		(pin "1"
 			(uuid "a591b145-fd03-460a-9dd0-eedeb4e77eb5")
@@ -3269,7 +3405,15 @@
 		)
 		(instances
 			(project "esp32c6-sensor-devboard"
-				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/b7a168fa-ef36-46f7-85e2-013385835bc1"
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/30405a70-5ee8-4fa0-855b-2b8bdab4954c"
+					(reference "U12")
+					(unit 2)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/5f6c93b9-e933-4ea9-a357-6909cb7c1eb6"
+					(reference "U13")
+					(unit 2)
+				)
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/a6afd72b-5a4f-47cb-8cd9-76696d192618"
 					(reference "U10")
 					(unit 2)
 				)
