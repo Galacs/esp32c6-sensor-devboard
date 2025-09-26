@@ -501,6 +501,24 @@
       "Net-(U1-GPIO23{slash}SDIO_DATA3)": [
         "SDIO"
       ],
+      "Net-(U1-SPICLK{slash}GPIO29)": [
+        "SPI_FLASH"
+      ],
+      "Net-(U1-SPICS0{slash}GPIO24)": [
+        "SPI_FLASH"
+      ],
+      "Net-(U1-SPID{slash}GPIO30)": [
+        "SPI_FLASH"
+      ],
+      "Net-(U1-SPIHD{slash}GPIO28)": [
+        "SPI_FLASH"
+      ],
+      "Net-(U1-SPIQ{slash}GPIO25)": [
+        "SPI_FLASH"
+      ],
+      "Net-(U1-SPIWP{slash}GPIO26)": [
+        "SPI_FLASH"
+      ],
       "Net-(U1-VDD_SPI{slash}GPIO27)": [
         "SPI_FLASH"
       ],
