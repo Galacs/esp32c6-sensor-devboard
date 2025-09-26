@@ -8080,12 +8080,40 @@
 		(uuid "0e5f125c-9ee6-47a1-ab77-9416a44e9c96")
 	)
 	(no_connect
+		(at 137.16 87.63)
+		(uuid "33ca449d-69b5-475c-a4fd-e5718c6478c8")
+	)
+	(no_connect
+		(at 137.16 85.09)
+		(uuid "386f8fa3-b71a-4b77-a2ee-4a8baca6639f")
+	)
+	(no_connect
+		(at 208.28 115.57)
+		(uuid "73a236c0-0c81-4995-88b5-e1cb6b1233af")
+	)
+	(no_connect
+		(at 208.28 118.11)
+		(uuid "7a7d96e6-4b6b-40a6-a0ce-73b8dddad52f")
+	)
+	(no_connect
 		(at 172.72 85.09)
 		(uuid "7cdd0321-3d5f-4f66-b354-70b875014ca3")
 	)
 	(no_connect
+		(at 137.16 74.93)
+		(uuid "a6608866-3140-4ce4-8938-ee8e022545cf")
+	)
+	(no_connect
+		(at 208.28 120.65)
+		(uuid "d49d7acf-6c5d-47c4-8a9c-4fe87282bd6d")
+	)
+	(no_connect
 		(at 208.28 95.25)
 		(uuid "e1f963b9-937a-4db6-959d-5e0923734b38")
+	)
+	(no_connect
+		(at 137.16 77.47)
+		(uuid "eb81dd01-aaed-417a-8749-5ca27bbee00f")
 	)
 	(wire
 		(pts
