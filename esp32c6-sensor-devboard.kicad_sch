@@ -7045,6 +7045,12 @@
 		(uuid "645bac3b-a24e-4f13-a721-2487ccd972bf")
 	)
 	(junction
+		(at 242.57 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6713cbc3-4351-4672-a0af-6e1effb52fa9")
+	)
+	(junction
 		(at 40.64 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7275,10 +7281,6 @@
 	(no_connect
 		(at 170.18 85.09)
 		(uuid "7cdd0321-3d5f-4f66-b354-70b875014ca3")
-	)
-	(no_connect
-		(at 252.73 105.41)
-		(uuid "a076835e-a5c6-48e5-862a-dc0b9dafddc2")
 	)
 	(wire
 		(pts
@@ -8932,6 +8934,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 105.41) (xy 252.73 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6efd6e02-9a84-44bf-a8e0-dc5ce5937b8d")
+	)
+	(wire
+		(pts
 			(xy 78.74 24.13) (xy 80.01 24.13)
 		)
 		(stroke
@@ -10309,6 +10321,16 @@
 			(type default)
 		)
 		(uuid "e44e64b1-7a93-457d-84b7-79db1e6bd76d")
+	)
+	(wire
+		(pts
+			(xy 242.57 102.87) (xy 242.57 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6560a01-dd48-485f-b9d7-7e2acd6f0749")
 	)
 	(wire
 		(pts
@@ -13037,7 +13059,7 @@
 		(dnp no)
 		(uuid "299e8133-f842-47a8-bb9c-ac0282ea9b2f")
 		(property "Reference" "R58"
-			(at 241.046 104.14 90)
+			(at 243.586 100.838 90)
 			(effects
 				(font
 					(size 1.27 1.27)
