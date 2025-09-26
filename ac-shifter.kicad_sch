@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "8531915e-a8ba-4d73-85a2-ab4b1b34671f")
 	(paper "A4")
+	(title_block
+		(title "AC Level Shifter")
+		(date "2025-09-26")
+		(rev "01")
+		(company "Rémi Ait-Younes")
+	)
 	(lib_symbols
 		(symbol "Comparator:LM393"
 			(pin_names

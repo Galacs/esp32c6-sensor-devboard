@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "f6edeef8-7fa0-4f55-9ad8-145372f41e3e")
 	(paper "A4")
+	(title_block
+		(title "ESP32-C6 Sensor-Devboard")
+		(date "2025-09-26")
+		(rev "01")
+		(company "Rémi Ait-Younes")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
@@ -8080,10 +8086,6 @@
 		(uuid "0e5f125c-9ee6-47a1-ab77-9416a44e9c96")
 	)
 	(no_connect
-		(at 137.16 87.63)
-		(uuid "33ca449d-69b5-475c-a4fd-e5718c6478c8")
-	)
-	(no_connect
 		(at 137.16 85.09)
 		(uuid "386f8fa3-b71a-4b77-a2ee-4a8baca6639f")
 	)
@@ -8102,6 +8104,10 @@
 	(no_connect
 		(at 137.16 74.93)
 		(uuid "a6608866-3140-4ce4-8938-ee8e022545cf")
+	)
+	(no_connect
+		(at 137.16 87.63)
+		(uuid "a80e6b2d-d0bb-4fba-9d3d-00dc3d3c2f15")
 	)
 	(no_connect
 		(at 208.28 120.65)

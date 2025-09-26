@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "1fa21cb9-07a1-4189-a7f6-0af4afe50219")
 	(paper "A4")
+	(title_block
+		(title "Power section")
+		(date "2025-09-26")
+		(rev "01")
+		(company "Rémi Ait-Younes")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
