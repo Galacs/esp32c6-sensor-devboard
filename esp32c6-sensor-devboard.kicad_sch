@@ -12328,6 +12328,26 @@
 		)
 		(uuid "522c0ed5-2d9c-4e47-b709-ca18fa97d9d6")
 	)
+	(label "U0TXD"
+		(at 139.7 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52da3ccc-8c6e-41e1-a9d8-bf4d848919b9")
+	)
+	(label "U0RXD"
+		(at 139.7 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52da3ccc-8c6e-41e1-a9d8-bf4d848919b9")
+	)
 	(label "IL3"
 		(at 237.49 154.94 0)
 		(effects
@@ -14862,7 +14882,7 @@
 		(dnp no)
 		(uuid "2504fc8f-a2cb-4724-ba6a-5fbdfd69168f")
 		(property "Reference" "R14"
-			(at 143.51 69.596 90)
+			(at 143.256 71.628 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16607,10 +16627,10 @@
 		(dnp no)
 		(uuid "50b28890-6678-48de-996f-0c46ccb97be5")
 		(property "Reference" "R10"
-			(at 138.938 64.008 90)
+			(at 143.256 69.596 90)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
