@@ -3314,6 +3314,12 @@
 		(uuid "67f14e9d-e738-483b-965f-0432e762e090")
 	)
 	(junction
+		(at 213.36 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71dcee6b-d016-42e4-9193-b5150719ecf7")
+	)
+	(junction
 		(at 100.33 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4765,6 +4771,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 91.44) (xy 219.71 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95b7496d-2184-4bb5-a786-b3319a967b9b")
+	)
+	(wire
+		(pts
 			(xy 109.22 49.53) (xy 109.22 57.15)
 		)
 		(stroke
@@ -5455,7 +5471,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 91.44) (xy 219.71 91.44)
+			(xy 212.09 91.44) (xy 213.36 91.44)
 		)
 		(stroke
 			(width 0)
@@ -10798,6 +10814,73 @@
 			(project "esp32c6-sensor-devboard"
 				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/4befa429-10a8-402a-b91d-1560a39651d5"
 					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce3bee4d-477c-4584-98a7-504828048e76")
+		(property "Reference" "TP17"
+			(at 215.392 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 210.82 93.4721 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b8e2855-dcc1-4ae2-a75c-eafcbdec78a4")
+		)
+		(instances
+			(project "esp32c6-sensor-devboard"
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/4befa429-10a8-402a-b91d-1560a39651d5"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
