@@ -12764,16 +12764,6 @@
 		)
 		(uuid "f6f97bdd-c57d-4038-8573-a295a71a1b59")
 	)
-	(label "ESP_D-"
-		(at 156.21 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f8803f29-51dc-46ae-a173-4d2f1e38ad0e")
-	)
 	(rule_area
 		(polyline
 			(pts
@@ -14411,7 +14401,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 138.938 129.54 90)
 			(effects
 				(font
@@ -14447,7 +14437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF1002T5E"
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
 			(at 137.16 129.54 0)
 			(effects
 				(font
@@ -14465,7 +14455,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25804"
+		(property "JLCPCB Part #" "C25744"
 			(at 137.16 129.54 0)
 			(effects
 				(font
@@ -14563,6 +14553,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "17b0bb6a-3836-4df3-964b-d02af5db9d3d")
 		(property "Reference" "R21"
 			(at 140.208 148.844 90)
@@ -15109,6 +15100,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "209098b4-dd8d-4dbb-8ad0-53302fef6996")
 		(property "Reference" "R20"
 			(at 140.208 146.304 90)
@@ -16539,7 +16531,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 144.018 129.54 90)
 			(effects
 				(font
@@ -16575,7 +16567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF1002T5E"
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
 			(at 142.24 129.54 0)
 			(effects
 				(font
@@ -16593,7 +16585,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25804"
+		(property "JLCPCB Part #" "C25744"
 			(at 142.24 129.54 0)
 			(effects
 				(font
@@ -17140,6 +17132,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "4eebf8e6-a581-44bf-bbe5-456b596ca6fb")
 		(property "Reference" "R22"
 			(at 140.208 151.384 90)
@@ -20653,6 +20646,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "93eebaa1-ddb5-4b38-b06b-9835981f245e")
 		(property "Reference" "R19"
 			(at 140.208 143.764 90)
@@ -21932,6 +21926,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a1e7af45-522d-4417-b8b9-5a0ad7aad7ec")
 		(property "Reference" "R18"
 			(at 140.208 141.224 90)
@@ -23040,7 +23035,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 141.478 129.54 90)
 			(effects
 				(font
@@ -23076,7 +23071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF1002T5E"
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
 			(at 139.7 129.54 0)
 			(effects
 				(font
@@ -23094,7 +23089,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25804"
+		(property "JLCPCB Part #" "C25744"
 			(at 139.7 129.54 0)
 			(effects
 				(font
@@ -24834,6 +24829,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ea00c2e5-8c6d-478b-90dc-5fb4787440be")
 		(property "Reference" "R17"
 			(at 140.208 138.684 90)
@@ -25192,7 +25188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 136.398 129.54 90)
 			(effects
 				(font
@@ -25228,7 +25224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF1002T5E"
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
 			(at 134.62 129.54 0)
 			(effects
 				(font
@@ -25246,7 +25242,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25804"
+		(property "JLCPCB Part #" "C25744"
 			(at 134.62 129.54 0)
 			(effects
 				(font
@@ -25408,7 +25404,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 133.858 129.54 90)
 			(effects
 				(font
@@ -25444,7 +25440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF1002T5E"
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
 			(at 132.08 129.54 0)
 			(effects
 				(font
@@ -25462,7 +25458,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25804"
+		(property "JLCPCB Part #" "C25744"
 			(at 132.08 129.54 0)
 			(effects
 				(font

@@ -3044,30 +3044,6 @@
 		(uuid 25c3d27c-96de-415a-9561-03c67021a83d)
 	)
 	(rectangle
-		(start 177.8 114.3)
-		(end 259.08 156.21)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 4023520c-7ecb-47b5-aa6f-85973c4c4f64)
-	)
-	(rectangle
-		(start 91.44 114.3)
-		(end 172.72 156.21)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d408e13f-9c7f-4a0f-8b72-4ea53101a9a3)
-	)
-	(rectangle
 		(start 135.89 25.4)
 		(end 175.26 62.23)
 		(stroke
@@ -3272,6 +3248,12 @@
 		(uuid "40a1ae15-e904-4b7f-bac7-1efa6cfcdceb")
 	)
 	(junction
+		(at 82.55 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47b11c49-b8cf-46b3-855b-ed027b8c67c1")
+	)
+	(junction
 		(at 189.23 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3426,12 +3408,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb684921-ac4a-4914-b886-8dc0dee2b458")
-	)
-	(junction
-		(at 78.74 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bfb32f9c-3870-45a2-94c9-556178e193a6")
 	)
 	(junction
 		(at 195.58 91.44)
@@ -3651,7 +3627,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 68.58) (xy 82.55 82.55)
+			(xy 82.55 68.58) (xy 82.55 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3761,7 +3737,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 36.83) (xy 78.74 36.83)
+			(xy 74.93 36.83) (xy 92.71 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3888,6 +3864,16 @@
 			(type default)
 		)
 		(uuid "28f0a3d0-8334-484e-aad0-fc4eb1970a2c")
+	)
+	(wire
+		(pts
+			(xy 82.55 78.74) (xy 82.55 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29f614c5-6c3c-4f1c-bcf2-4e7b7de6555b")
 	)
 	(wire
 		(pts
@@ -5321,16 +5307,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 36.83) (xy 92.71 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7a32a91-2810-475f-ba6a-054ab46dd565")
-	)
-	(wire
-		(pts
 			(xy 215.9 140.97) (xy 215.9 142.24)
 		)
 		(stroke
@@ -5764,6 +5740,98 @@
 			(justify left)
 		)
 		(uuid "c61bb27c-2911-4121-a35e-1e963b354798")
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 172.72 114.3) (xy 91.44 114.3) (xy 91.44 156.21) (xy 172.72 156.21)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 064734c3-742f-49d3-a0ca-e5f80755b07a)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 259.08 114.3) (xy 177.8 114.3) (xy 177.8 156.21) (xy 259.08 156.21)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 55a15388-7774-4854-9f0d-4cf99691a5af)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 93.98 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "445605fe-b704-49f1-89fd-8f1cc46c9594")
+		(property "Netclass" ""
+			(at -116.84 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "3.5V SMPS"
+			(at 94.6785 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 180.34 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "943227f9-efb4-4984-8a81-e16616f84f99")
+		(property "Netclass" ""
+			(at -30.48 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "24V SMPS"
+			(at 181.0385 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -9810,7 +9878,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 78.74 36.83 0)
+		(at 82.55 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9818,7 +9886,7 @@
 		(dnp no)
 		(uuid "6f60b82d-e142-45a5-a6b3-9a7d74529369")
 		(property "Reference" "TP10"
-			(at 77.216 31.496 0)
+			(at 77.47 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9827,7 +9895,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 81.28 34.7979 0)
+			(at 80.5179 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9837,7 +9905,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 83.82 36.83 0)
+			(at 82.55 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9846,7 +9914,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 36.83 0)
+			(at 82.55 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9855,7 +9923,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 78.74 36.83 0)
+			(at 82.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9867,7 +9935,7 @@
 			(uuid "1636cc61-2708-49eb-bc12-83b05bea654b")
 		)
 		(instances
-			(project ""
+			(project "esp32c6-sensor-devboard"
 				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e/4befa429-10a8-402a-b91d-1560a39651d5"
 					(reference "TP10")
 					(unit 1)
@@ -13230,7 +13298,7 @@
 	)
 	(symbol
 		(lib_id "Pers:MB10S")
-		(at 49.53 97.79 0)
+		(at 49.53 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13238,7 +13306,7 @@
 		(dnp no)
 		(uuid "ee92efc9-8192-424d-b27e-453c70123832")
 		(property "Reference" "D3"
-			(at 57.658 90.932 0)
+			(at 56.642 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13246,7 +13314,7 @@
 			)
 		)
 		(property "Value" "MB10S"
-			(at 57.658 93.472 0)
+			(at 56.642 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
