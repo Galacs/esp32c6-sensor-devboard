@@ -7859,12 +7859,6 @@
 		(uuid "01f9543f-b2b5-46ad-97fc-e5eef9525fb3")
 	)
 	(junction
-		(at 162.56 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0def802a-ade0-4e40-869c-0f916422fb16")
-	)
-	(junction
 		(at 58.42 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8013,6 +8007,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "687b6201-6f99-4876-a3ac-c96f85feb236")
+	)
+	(junction
+		(at 166.37 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6afebf86-4127-4b92-b7c3-74a2ea0d4509")
 	)
 	(junction
 		(at 43.18 154.94)
@@ -8171,6 +8171,12 @@
 		(uuid "d1ff7ebc-fc86-441c-9b26-cf306eb12fa3")
 	)
 	(junction
+		(at 163.83 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5298d20-b2d5-4284-9428-c5127620bb5f")
+	)
+	(junction
 		(at 139.7 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8287,16 +8293,6 @@
 	(no_connect
 		(at 137.16 77.47)
 		(uuid "eb81dd01-aaed-417a-8749-5ca27bbee00f")
-	)
-	(wire
-		(pts
-			(xy 163.83 66.04) (xy 162.56 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0109a712-f94d-4ab6-b16e-13e2333b030f")
 	)
 	(wire
 		(pts
@@ -8450,7 +8446,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 66.04) (xy 161.29 66.04)
+			(xy 161.29 66.04) (xy 163.83 66.04)
 		)
 		(stroke
 			(width 0)
@@ -9720,6 +9716,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 85.09) (xy 170.18 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "536a92e8-3644-49f0-b4cb-7764209a8e7c")
+	)
+	(wire
+		(pts
 			(xy 68.58 24.13) (xy 68.58 25.4)
 		)
 		(stroke
@@ -10200,6 +10206,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 68.58) (xy 166.37 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e4bb89a-192d-4eef-9b2d-55bfe356e765")
+	)
+	(wire
+		(pts
 			(xy 241.3 83.82) (xy 251.46 83.82)
 		)
 		(stroke
@@ -10337,6 +10353,16 @@
 			(type default)
 		)
 		(uuid "7a4c1cf2-478f-40f9-bff8-d693e508ba63")
+	)
+	(wire
+		(pts
+			(xy 166.37 66.04) (xy 163.83 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e0c163e-1060-47d0-8e3b-ca01ac5e4507")
 	)
 	(wire
 		(pts
@@ -11550,7 +11576,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 85.09) (xy 170.18 85.09)
+			(xy 137.16 85.09) (xy 166.37 85.09)
 		)
 		(stroke
 			(width 0)
@@ -11747,6 +11773,16 @@
 			(type default)
 		)
 		(uuid "d8f78431-277a-406c-910b-1b33ab0be9dc")
+	)
+	(wire
+		(pts
+			(xy 166.37 76.2) (xy 166.37 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c608e6-4f24-4010-a425-64174f221558")
 	)
 	(wire
 		(pts
@@ -12180,7 +12216,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 63.5) (xy 162.56 66.04)
+			(xy 163.83 63.5) (xy 163.83 66.04)
 		)
 		(stroke
 			(width 0)
@@ -12346,7 +12382,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "52da3ccc-8c6e-41e1-a9d8-bf4d848919b9")
+		(uuid "52da3ccc-8c6e-41e1-a9d8-bf4d848919ba")
 	)
 	(label "IL3"
 		(at 237.49 154.94 0)
@@ -15595,7 +15631,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 162.56 63.5 0)
+		(at 163.83 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15603,7 +15639,7 @@
 		(dnp no)
 		(uuid "325de584-9f8b-4e07-9350-2e1a15edd98e")
 		(property "Reference" "#PWR03"
-			(at 162.56 67.31 0)
+			(at 163.83 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15612,7 +15648,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 160.274 59.182 0)
+			(at 161.544 59.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15621,7 +15657,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 63.5 0)
+			(at 163.83 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15630,7 +15666,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 63.5 0)
+			(at 163.83 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15639,7 +15675,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 162.56 63.5 0)
+			(at 163.83 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15654,6 +15690,109 @@
 			(project "esp32c6-sensor-devboard"
 				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 166.37 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3530c6a5-69e8-4b06-b453-fb2b105170e4")
+		(property "Reference" "R63"
+			(at 169.672 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 166.37 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 168.148 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 166.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 166.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0603WAF1002T5E"
+			(at 166.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 166.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25804"
+			(at 166.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "919fa16c-fde5-4877-8f31-d0ce359c91bb")
+		)
+		(pin "2"
+			(uuid "ae159a2e-26b8-4c38-9426-6e425e83c80d")
+		)
+		(instances
+			(project "esp32c6-sensor-devboard"
+				(path "/f6edeef8-7fa0-4f55-9ad8-145372f41e3e"
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -18380,7 +18519,7 @@
 		(dnp no)
 		(uuid "7afd6cc4-90ea-44bb-8aaf-9e448597c853")
 		(property "Reference" "R7"
-			(at 160.274 67.818 90)
+			(at 158.242 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
