@@ -1652,7 +1652,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Pers:SOIC245P670X290-4N"
+			(property "Footprint" "Package_SO:OnSemi_751EP_SOIC-4_3.9x4.725mm_P2.54mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -13253,7 +13253,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pers:SOIC245P670X290-4N"
+		(property "Footprint" "Package_SO:OnSemi_751EP_SOIC-4_3.9x4.725mm_P2.54mm"
 			(at 49.53 97.79 0)
 			(effects
 				(font
