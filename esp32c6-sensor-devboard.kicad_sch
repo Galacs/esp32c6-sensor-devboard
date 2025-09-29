@@ -12350,6 +12350,16 @@
 		)
 		(uuid "1aa57703-88a5-4c34-bcc3-7c3911742065")
 	)
+	(label "ESP_D-"
+		(at 156.21 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "24d847ed-4a14-44a3-abba-f847ba38d2b2")
+	)
 	(label "Vref"
 		(at 226.06 149.86 180)
 		(effects
@@ -13269,7 +13279,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x04")
-		(at 275.59 143.51 0)
+		(at 275.59 146.05 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -13286,7 +13297,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x04"
-			(at 278.13 146.0499 0)
+			(at 278.13 143.5101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13296,7 +13307,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-4_P5.00mm"
-			(at 275.59 143.51 0)
+			(at 275.59 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13305,7 +13316,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 275.59 143.51 0)
+			(at 275.59 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13314,7 +13325,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 275.59 143.51 0)
+			(at 275.59 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
