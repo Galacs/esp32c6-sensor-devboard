@@ -2862,7 +2862,8 @@
 	)
 	(symbol
 		(lib_id "Pers:MB10S")
-		(at 92.71 93.98 180)
+		(at 92.71 93.98 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2870,7 +2871,7 @@
 		(dnp no)
 		(uuid "732d59fe-a540-46a6-b1d0-61225e523a85")
 		(property "Reference" "D8"
-			(at 99.568 90.424 0)
+			(at 100.076 86.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2878,7 +2879,7 @@
 			)
 		)
 		(property "Value" "MB10S"
-			(at 99.568 87.884 0)
+			(at 100.076 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
