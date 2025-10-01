@@ -58,9 +58,9 @@
           "width": 0.0
         },
         {
-          "gap": 0.315,
+          "gap": 0.4,
           "via_gap": 0.5,
-          "width": 0.3493
+          "width": 0.359
         }
       ],
       "drc_exclusions": [],
@@ -667,6 +667,10 @@
       {
         "netclass": "I2C",
         "pattern": "*SCL"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/D*"
       }
     ]
   },
