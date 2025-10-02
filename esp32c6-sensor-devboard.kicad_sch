@@ -12828,7 +12828,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "dddc7f82-db77-49e1-a3ce-213fea5a6a0c")
+		(uuid "dddc7f82-db77-49e1-a3ce-213fea5a6a0d")
 	)
 	(label "BMP_INT1"
 		(at 241.3 86.36 0)
@@ -26346,7 +26346,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-40-1EP_5x5mm_P0.4mm_EP3.6x3.6mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-40-1EP_5x5mm_P0.4mm_EP3.6x3.6mm_ThermalVias"
 			(at 104.14 120.65 0)
 			(effects
 				(font
