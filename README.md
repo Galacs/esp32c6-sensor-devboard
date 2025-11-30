@@ -1,4 +1,4 @@
-# ESP32-C3 Sensor-Devboard
+# ESP32-C6 Sensor-Devboard
 
 ESP32-C6 sensor test board made to test step-down power supply design, wide input AC/DC level shifter, i2c temperature sensors, sdio sdcard and RF circuit (IEEE 802.15.4)
 
